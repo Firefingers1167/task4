@@ -105,7 +105,8 @@ body {
   font-family: monospace;
   background-image: url(pic2.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-attachment: fixed;
 
   font-family: sans-serif;
 }
