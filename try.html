@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/a823ae677e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="2.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navi" >
+        <ul>
+            <li><a href="task4.html">ABOUT ME</a></li>
+            
+            <li id="active"><a href="try.html">CONTACT ME</a></li>
+        </ul>
+    </nav>
+    
+    <form>    
+    <label for="name" ><b>NAME</b></label>
+    <br>
+    <input type="text" id="name" style="border-radius: 6px;border: none;">
+    
+    <label for="Mobile.No" ><b>PHONE.NO</b></label>
+    <input type="Mobile.No" minlength="10" id="name" style="border-radius: 6px;border: none;">
+    <label for="Email" ><b>Email-id</b></label>
+    <input type="email" id="Email" style="border-radius: 6px;border: none;">
+    <label for="mess" style="transform: translate(400%,-200px);color: white;margin-left: 80px;border-radius: 6px;" ><b>Message</b></label>
+    <textarea id="mess" style="transform: translate(400px,-200px); top: 60px;margin-left: 80px;border-radius: 10px;border: none;"></textarea>
+        <button class="hut" type="submit" onclick="myMove();alert('submitted')" id="but" style="position: relative;">
+            <p style="font-size: 16px;">Send</p>
+            <i id="arrow" class="fas fa-angle-double-right" style="align-self: center;" ></i>
+        </button>    
+    </form>
+<script src="task4.js">
+
+</script>
+</body>
+</html>
