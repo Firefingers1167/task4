@@ -133,14 +133,7 @@ form label {
   .hut p {
     transform: translate(0%, 20%);
   }
-  .hut:hover {
-    border: transparent;
-    background-color: white;
 
-    border-radius: 0.625rem;
-    box-shadow: 0.25rem 0.25rem 0.625rem;
-    transform: translate(0, 0);
-  }
   .image {
     border-radius: 6.25rem;
     position: absolute;
@@ -178,6 +171,9 @@ form label {
   .hut {
     transform: translateY(3rem);
   }
+  .hut:hover {
+    transform: translateY(3rem);
+  }
   #active {
     background-color: black;
   }
@@ -209,3 +205,4 @@ form label {
     margin-top: 1.875rem;
   }
 }
+
